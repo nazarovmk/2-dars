@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  background-color: #f4d04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.desktop {
+  width: 336px;
+  padding: 24px;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+  border-bottom-right-radius: 30px;
+  background-color: #fff;
+}
+
+.desktop__list {
+  margin: 0;
+  width: 60px;
+  padding: 4px 12px 4px 12px;
+  border-radius: 4px;
+  background-color: #f4d04e;
+}
+
+.desktop__link {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: left;
+  color: #111111;
+}
+
+.desktop__main {
+  width: 336px;
+  margin-top: 24px;
+}
+
+.desktop__datetime {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #111111;
+}
+.desktop__html-h2 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #111111;
+}
+
+.desktop__html-h2:hover {
+  color: #f4d04e;
+}
+
+.desktop__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #7f7f7f;
+}
+
+.desktop__svg {
+  display: flex;
+  gap: 12px;
+}
+
+.desktop__bottom-text {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #111111;
+  gap: 12px;
+}
